@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,  h1, h2, h3, h4, h5, h6, p, blockquote, pre,  a, abbr, acronym, address, big, cite, code,  del, dfn, em, font, img, ins, kbd, q, s, samp,  small, strike, strong, sub, sup, tt, var,  b, u, i, center,  dl, dt, dd, ol, ul, li,  fieldset, form, label, legend,  table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,  q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	background-image: url(bg.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-color: #8f9595;
+	font-family: arial;
+	font-size: 16px;
+	line-height: 25px;
+}
+#container {
+	width: 925px;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 36px;
+}
+#head {
+	width: 800px;
+	margin: 0 auto;
+	height: auto;
+	border-top: 1px dotted #525252;
+	border-bottom: 1px dotted #525252;
+}
+h1 {
+	font-size: 26px;
+	letter-spacing: -1px;
+	font-weight: 100;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+	margin: 0px;
+	line-height: 30px;
+	font-family: Georgia;
+	font-style: italic;
+	text-align: center;
+	color: #4d4d4d;
+}
+#content {
+	width: 800px;
+	margin: 25px auto;
+	height: auto;
+}
+#content p {
+	font-family: arial;
+	font-size: 16px;
+	color: #424242;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+#content .intro {
+	padding: 10px 0px;
+}
+#content .intro p {
+	color: #424242;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 19px;
+	background: #eee;
+	padding: 5px;
+}
+#content .intro p a {
+	color: #454444;
+	text-decoration: none;
+	font-weight: bold;
+}
+#content .intro p a:hover {
+	text-decoration: underline;
+}
+.heading {
+	background: url(head.png) repeat-x #7b7f7f;
+	color: #dadddd;
+	line-height: 45px;
+	padding-left:20px;
+	padding-right:20px;
+	display: block;
+	width:760px;
+	height:45px;
+	margin-bottom:20px;
+	margin-top: 40px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 18px;
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-decoration: none;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	text-shadow: 0 1px 1px #333;
+}
+.heading:hover {
+	box-shadow: 0px 0px 20px rgba(0, 235, 255, 0.8);
+	-webkit-box-shadow: 0px 0px 20px rgba(0, 235, 255, 0.8);
+	-moz-box-shadow: 0px 0px 20px rgba(0, 235, 255, 0.8);
+}
+.triangle {
+	background: #e4e8e8 url(triangle.png) bottom left no-repeat;
+	height: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+pre, code, tt {
+	font:13px 'andale mono', 'lucida console', monospace;
+	line-height:1.5;
+	background: #d9e3e4;
+	text-shadow: none;
+	color: #333;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+	margin-left: -30px;
+	padding: 30px;
+	width: 760px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+pre:hover {
+	box-shadow: 0px 0px 20px rgba(0, 235, 255, 0.8);
+	-webkit-box-shadow: 0px 0px 20px rgba(0, 235, 255, 0.8);
+	-moz-box-shadow: 0px 0px 20px rgba(0, 235, 255, 0.8);
+}
+pre strong {
+	background-color: #91c5cc;
+	display: inline-block;
+	color:#000;
+	padding-left:5px;
+	padding-right:5px;
+	font-weight: normal;
+}
+.text {
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-webkit-transition-duration: 0.2s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #e4e8e8;
+	width:760px;
+	padding:20px;
+	color: #4d4d4d;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+}
+
+.info {
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-webkit-transition-duration: 0.2s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #e4e8e8;
+	width:760px;
+	padding:20px;
+	color: #4d4d4d;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+	margin-bottom:50px;
+	overflow: hidden;
+	display: block;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+}
+
+.info2 {
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+	-webkit-transition-duration: 0.2s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #e4e8e8;
+	width:760px;
+	padding:20px;
+	color: #4d4d4d;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+	margin-top:40px;
+	overflow: hidden;
+	display: block;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+}
+
+.info2 em {
+	display: block;
+	padding-top:10px;
+	color:#4da7b3;
+}
+
+.info-left {
+	width:200px;
+	float:left;
+}
+
+
+.info-right {
+	width:540px;
+	float:right;
+}
+
+ol, ul {
+	list-style-position: inside;
+}
+
+ol li, ul li {
+	margin-bottom:10px;
+}
+
+hr.knot {
+	background-image: url(hr.png);
+	background-repeat: no-repeat;
+	width:600px;
+	height:32px;
+	text-align: center;
+	border:0;
+}
+
+hr.knot2 {
+	background-image: url(hr.png);
+	background-repeat: no-repeat;
+	width:600px;
+	height:32px;
+	text-align: center;
+	border:0;
+	margin-top:50px;
+}
+
+a {
+	color:#4da7b3;
+}
